@@ -1,0 +1,35 @@
+# -----------------------------
+# Python & PyTorch ignore rules
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Model checkpoints
+*.pth
+*.pt
+*.bin
+
+# Cache & datasets
+.cache/
+data/
+runs/
+outputs/
+*.tmp
+
+# Tokenizers and HuggingFace cache
+*.json
+*.txt
+*.lock
+huggingface/
+transformers/
+
+# System files
+.DS_Store
+Thumbs.db
