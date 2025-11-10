@@ -1,0 +1,10 @@
+torch==2.4.1
+transformers==4.44.2
+pandas==2.2.3
+numpy==2.1.2
+scikit-learn==1.5.2
+tqdm==4.66.5
+streamlit==1.39.0
+sentencepiece==0.2.0
+protobuf==4.25.5
+huggingface-hub==0.24.6
